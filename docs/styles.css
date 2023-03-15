@@ -1,11 +1,14 @@
-body {
+html, body {
     background-color: darkgray;
-    margin: 1rem;
+    padding: 1rem;
+    margin:0;
 }
 
 ul {
+    margin: 0;
+    padding: 0;
     list-style: none;
-    max-width: 100%;
+    max-width: calc(100% - 1rem);
     width: 800px;
     display: flex;
     flex-direction: column;
