@@ -1,0 +1,23 @@
+body {
+    background-color: darkgray;
+    margin: 1rem;
+}
+
+ul {
+    list-style: none;
+    max-width: 100%;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+li {
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+img {
+    width: 100%;
+}
